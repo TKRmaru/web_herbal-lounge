@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Herbal Lounge</title>
+    <meta name="description" content="ポートフォリオWebサイト">
+    <link rel="icon" href="images/icon.png  " type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kranky&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/644a4d86cc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+            <p>Loading...</p>
+          </div>
+    </div>
+
+    <header>
+        <div id="nav-toggle">
+            <i class="fa-solid fa-bars fa-xl"></i>
+            <i class="fa-regular fa-circle-xmark fa-xl"></i>
+        </div>
+        <nav class="main-nav wrapper">
+            <ul>
+                <li><a class="menu-info" href="#info">Info</a></li>
+                <li><a class="menu-cafe" href="#cafe">Cafe</a></li>
+                <li><a class="menu-shop" href="#shop">Shop</a></li>
+                <li><a class="menu-photo" href="#photo">Photo</a></li>
+            </ul>
+        </nav>
+        <div class="page-top">
+            <a href="#"><i class="fa-solid fa-chevron-up fa-xl"></i></a>
+        </div>
+        <div class="header-text">
+            <h1 class="header-name">Herbal Lounge</h1>
+            <p class="header-link">
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-3x"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            </p>
+        </div>
+        <video src="images/hero-movie.mp4" autoplay loop muted playsinline>
+    </header>
+    <main class="container">
+        <section id="event" class="side-box">
+            <a href="event.html" target="_blank">
+                <h3><span>Event</span></h3>
+                <p>6月3日 ワークショップを開催します！</p>
+            </a>
+        </section>
+        <div>
+        <section id="info" class="info bg-section-left">
+            <img src="images/info.jpg" alt="tea_shelf" class="info-img">
+            <div class="wrapper info-content">
+                <h2 data-aos="fade-up">What's herbal tea?</h2>
+                <p data-aos="fade-up">
+                    ハーブティーと薬膳茶は、自然由来の成分を使用した健康に良い飲み物です。
+                    ハーブティーは植物から作られ、リラックス効果や消化を助ける効果があり、
+                    薬膳茶は伝統医学に基づき特定の食材をブレンドしたものから作られ、身体を整える効果があります。
+                    両者の違いは味覚を楽しむか、効能を求めて飲むか、という点ですが、
+                    ストレス解消、免疫力アップ、美肌効果など、共通して身体の不調を改善する効果があります。
+                    Herbal Loungeでは、種類豊富なハーブティーと薬膳茶を取り扱っております。
+                </p>
+                <div class="content-btn" data-aos="fade-up">
+                    <a href="#" class="btn" id="info1">ハーブティーについて</a>
+                    <a href="#" class="btn" id="info2">薬膳茶について</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cafe">
+            <div class="cafe bg-section-right">
+                <img src="images/cafe.jpg" alt="cafe_inside" class="cafe-img">
+                <div class="wrapper cafe-content">
+                    <h2 data-aos="fade-up">Cafe</h2>
+                    <p data-aos="fade-up">
+                        当店では、自然の恵みを活かしたハーブティーと薬膳茶を提供しております。
+                        独自に調合したブレンドティーは、体調に合わせた様々な効能を持ち、心身ともにリラックスできる効果があります。
+                        店内は落ち着いた雰囲気で、ゆったりとした時間を過ごせる空間をご用意しております。
+                        また、ハーブティーとの相性も良い季節に応じたオリジナルスイーツも取り揃えております。
+                        健康への意識が高い方だけでなく、ストレス解消を求める方にもぴったりのカフェですので、是非一度お立ち寄りください。
+                    </p>
+                    <div class="content-btn" data-aos="fade-up">
+                        <a href="#" class="btn" id="cafe1">食べログ</a>
+                        <a href="#" class="btn" id="cafe2">ホットペッパー</a>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="cafe-menu">
+                <div class="wrapper cafe-menu-list">
+                    <h3><i class="fa-solid fa-mug-saucer fa-xs"></i> Drink Menu <i class="fa-solid fa-mug-saucer fa-xs"></i></h3>
+                    <table>
+                        <tr>
+                            <th>プレミアムブレンド</th>
+                            <td>¥700</td>
+                        </tr>
+                        <tr>
+                            <th>疲労回復ブレンド</th>
+                            <td>¥650</td>
+                        </tr>
+                        <tr>
+                            <th>美肌ブレンド</th>
+                            <td>¥580</td>
+                        </tr>
+                        <tr>
+                            <th>冷え性改善ブレンド</th>
+                            <td>¥600</td>
+                        </tr>
+                        <tr>
+                            <th>カモミールティー</th>
+                            <td>¥550</td>
+                        </tr>
+                        <tr>
+                            <th>シナモンティー</th>
+                            <td>¥660</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">※その他様々なオリジナルティーをご用意しております！</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wrapper cafe-menu-list">
+                    <h3><i class="fa-solid fa-utensils fa-xs"></i> Food Menu <i class="fa-solid fa-utensils fa-xs"></i></h3>
+                    <table>
+                        <tr>
+                            <th>薬膳鍋</th>
+                            <td>¥1,100</td>
+                        </tr>
+                        <tr>
+                            <th>薬膳カレー</th>
+                            <td>¥900</td>
+                        </tr>
+                        <tr>
+                            <th>ハーブスコーンセット</th>
+                            <td>¥600</td>
+                        </tr>
+                        <tr>
+                            <th>薬膳スイーツセット</th>
+                            <td>¥860</td>
+                        </tr>
+                        <tr>
+                            <th>ハーブティーゼリー</th>
+                            <td>¥500</td>
+                        </tr>
+                        <tr>
+                            <th>季節のフルーツパフェ</th>
+                            <td>¥880</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">※お持ち帰りも承ります！</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="shop bg-section-left">
+            <img src="images/shop.jpg" alt="tea_selection" class="shop-img">
+            <div class="wrapper shop-content">
+                <h2 data-aos="fade-up">Shop</h2>
+                <p data-aos="fade-up">
+                    当社が独自に調合したハーブティーと薬膳茶を、お手軽にご自宅でお楽しみいただけます。
+                    お客様のライフスタイルに合わせた様々な商品を取り揃えており、ドリップタイプやティーバッグなど、飲みやすい状態でお届けいたします。
+                    また、ギフト向けの商品も多数取り揃えており、贈り物としても喜ばれています。
+                    健康志向の方や、忙しい日常でリラックスしたい方にぴったりの商品を取り揃えておりますので、是非一度お試しください。
+                </p>
+                <div class="content-btn" data-aos="fade-up">
+                    <a href="#" class="btn" id="shop1"><i class="fa-solid fa-cart-shopping"></i> Shopへ</a>
+                    <a href="#" class="btn" id="shop2">定期配送はこちらから</a>
+
+            </div>
+        </section>
+        
+        <section id="photo" class="wrapper">
+            <h2><span>Photo Gallery</span></h2>
+            <div class="grid">
+            <a class="grid-gallery" href="images/img1.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img1.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img2.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img2.jpg" alt="tea">
+            </a>
+            <a class="grid-wide-top grid-gallery" href="images/img3.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img3.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img4.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img4.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img5.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img5.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img6.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img6.jpg" alt="tea">
+            </a>
+            <a class="grid-big-top grid-gallery" href="images/img7.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img7.jpg" alt="tea">
+            </a>
+            <a class="grid-big-bottom grid-gallery" href="images/img8.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img8.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img9.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img9.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img10.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img10.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img11.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img11.jpg" alt="tea">
+            </a>
+            <a class="grid-wide-bottom grid-gallery" href="images/img12.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img12.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img13.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img13.jpg" alt="tea">
+            </a>
+            <a class="grid-gallery" href="images/img14.jpg" data-aos="fade-up">
+                <img class="grid-item" src="images/img14.jpg" alt="tea">
+            </a>
+
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Contact</h2>
+        <p>
+            東京都新宿区新宿１－１－１<br>
+            TEL:03-1111-2222<br>
+            営業時間 10:00〜20:00
+        </p>
+        <a href="#" class="btn">お問い合わせ</a>
+        <p class="header-link footer-link">
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter fa-3x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-3x"></i></a>
+        </p>
+        <p><small>&copy; 2023 Herbal Lounge</small></p>
+
+    </footer>
+<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
