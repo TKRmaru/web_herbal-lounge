@@ -4,7 +4,7 @@ new LuminousGallery(document.querySelectorAll(".grid-gallery"));
 /* Fadeup Animation AOS */
 // AOS.init();
 AOS.init({
-    duration: 900
+    duration: 1000
 });
 
 // ハンバーガーメニュー
