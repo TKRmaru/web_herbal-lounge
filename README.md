@@ -2,7 +2,7 @@
 
 
 # ディレクトリ構成
-
+```
 web_herbal-tea/
 ├─ index.html        # トップページ
 ├─ event.html       # イベントページ
@@ -12,3 +12,4 @@ web_herbal-tea/
 |    └─ style.css
 └─ js/
     └─ script.js
+```
